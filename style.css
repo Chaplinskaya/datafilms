@@ -117,7 +117,7 @@ li {
     line-height: 30px;
 }
 .promo__bg {
-    background: url("img/bg.jpg") center center/cover no-repeat;
+    background: url("img/mars.webp") center center/cover no-repeat;
     height: 370px;
     padding: 100px 0 0 60px;
     height: 370px;
@@ -149,12 +149,37 @@ li {
     align-items: flex-start;
 }
 .promo__interactive-item {
+    -display: flex;
     display: inline-block;
     font-size: 18px;
     line-height: 24px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    position: relative;
 }
+.promo__interactive-item:hover .delete {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    left: 105%;
+    -margin-left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("icons/trash.png") center center/cover no-repeat;
+    cursor: pointer;
+}
+/* .delete {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background:url("icons/trash.png") center center/cover no-repeat;
+    cursor: pointer;
+} */
 .promo__interactive-title {
     font-size: 24px;
     font-weight: bold;
