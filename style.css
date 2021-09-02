@@ -165,7 +165,6 @@ li {
     height: 20px;
     right: 0;
     left: 105%;
-    -margin-left: 20px;
     top: 50%;
     transform: translateY(-50%);
     background: url("icons/trash.png") center center/cover no-repeat;

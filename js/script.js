@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         event.target.reset();//addForm.reset();
     });
-    const deleteAdv = (arrDel) => {
-         arrDel.forEach(item => {
-             item.remove();
-         });
-    };
+    // const deleteAdv = (arrDel) => {
+    //      arrDel.forEach(item => {
+    //          item.remove();
+    //      });
+    // };
     const makeChanges = () => {
         genre.textContent = 'Драма';
         poster.style.backgroundImage = 'url("img/bg.jpg")';
